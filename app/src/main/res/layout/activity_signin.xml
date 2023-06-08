@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01030b" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qr_code" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR Code Decoder"
+            android:fontFamily="@font/algerian_regular"
+            android:textColor="#0234ff"
+            android:textSize="30sp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="250dp"/>
+
+        <Button
+            android:id="@+id/signin"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign-In with Google Account      "
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="44dp"
+            android:src="@drawable/google_logo"
+            android:layout_alignEnd="@+id/signin"
+            android:layout_alignParentBottom="true"
+            android:padding="1dp"
+            android:layout_marginBottom="82dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "6226978976",
+    "project_id": "qr-code-decoder-6325f",
+    "storage_bucket": "qr-code-decoder-6325f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6226978976:android:d38519789e627fbee001c5",
+        "android_client_info": {
+          "package_name": "com.example.qrcodedecoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6226978976-0b652idmlchn9u70rrpo2ee8dnr8aq8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qrcodedecoder",
+            "certificate_hash": "26fb46ee3b5d32e7d5f5048a193a8ba6793530c6"
+          }
+        },
+        {
+          "client_id": "6226978976-h0prr4t08ud3baqu11qskbde0424fq5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClvgHFJIEjuBtbKmxZeDq51bOhfdrty6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6226978976-h0prr4t08ud3baqu11qskbde0424fq5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
