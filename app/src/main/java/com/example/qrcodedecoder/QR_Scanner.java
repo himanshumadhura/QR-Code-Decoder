@@ -46,6 +46,7 @@ public class QR_Scanner extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qr_scanner);
+
         cameraPreview = findViewById(R.id.cameraPreview);
         scanBtn = findViewById(R.id.scan_again);
         scanBtn.setVisibility(View.INVISIBLE);
